@@ -1,0 +1,23 @@
+{
+  "id": "com.linvo.stremiochannels.michou",
+  "version": "1.0.0",
+  "description": "Addon YouTube custom pour la chaîne Michou",
+  "name": "YouTube - Michou",
+  "resources": ["catalog", "meta"],
+  "types": ["channel"],
+  "idPrefixes": ["yt_id:"],
+  "catalogs": [
+    {
+      "type": "channel",
+      "id": "michou",
+      "name": "Michou",
+      "extra": [
+        {
+          "name": "search",
+          "options": ["Michou"],
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
